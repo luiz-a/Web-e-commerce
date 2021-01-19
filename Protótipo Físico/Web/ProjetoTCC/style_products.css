@@ -1,0 +1,381 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: #000;
+    outline: none;
+}
+h2 {
+    position: absolute;
+
+    left: 50%;
+    top: 20px;
+    transform: translate(-50%);
+    font-family: Orkney;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 150%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.055em;
+    color: #fff;
+    mix-blend-mode: normal;
+    background: #070E1B;
+    padding: 6px 10px;
+    border-radius: 15px;
+}
+
+h2>span {
+    font-family: Orkney;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 150%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.055em;
+    color: #F4D03F;
+    mix-blend-mode: normal;
+}
+.firt{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.titulo h3{
+    font-family: Orkney;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 150%;
+
+    text-align: left;
+    letter-spacing: 0.055em;
+
+    color: #EAC52F;
+}
+.btn_filtro{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 40px;
+    background:  #EAC52F;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 150%;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.055em;
+
+    color: #FFFFFF;
+}
+.second{
+    
+    margin-top: 40px;
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+#tds{
+    padding: 10px;
+    border-bottom: 2px solid #F4D03F;
+    color: #000;
+}
+#carnes{
+    padding: 10px;
+    border-bottom: 1px solid #C4C4C4;
+}
+#frios{
+    padding: 10px;
+    border-bottom: 1px solid #C4C4C4;
+}
+#bebidas{
+    padding: 10px;
+    border-bottom: 1px solid #C4C4C4;
+}
+#horti{
+    padding: 10px;
+    border-bottom: 1px solid #C4C4C4;
+}
+
+.barra_categoria button {
+    border: none;
+    background: none;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 150%;
+   
+    letter-spacing: 0.055em;
+
+    color: #C4C4C4;
+
+    transition: .6s;
+}
+.barra_categoria {
+
+    display: grid;
+
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+
+}
+
+.barra_categoria input[type="text"]{
+    padding: 2px;
+    border: none;
+    text-align: right;
+    color: #070E1B;
+    border-bottom: 1px solid #C4C4C4;
+}
+.third{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 200px;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+
+    grid-gap: 40px;
+}
+.container > div{
+    background: #F4EEEE;
+    border-radius: 40px;
+    height: 400px;
+
+    box-shadow: -10px 10px 10px rgba(0, 0, 0, 0.2);
+}
+.prod {
+   
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.add{
+    position: absolute;
+    top: 0;
+    left: 0;
+ 
+    width: 100%;
+    height: 40px;
+
+    background: #18366D;
+    border-radius: 40px 40px 0 0;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+
+    transition: 2s;
+}
+.min{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+ 
+    width: 100%;
+    height: 40px;
+
+    background: #18366D;
+    border-radius: 0 0 40px 40px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+
+    transition: 2s;
+}
+.prod01 img{
+    position: absolute;
+    
+    top: 80px;
+    left: 50%;
+
+    transform: translate(-50%);
+
+    width: 200px;
+    height: 160px;
+}   
+.prod_name{
+    position: absolute;
+
+    bottom: 130px;
+    left: 50%;
+    
+    width: 100%;
+
+    transform: translate(-50%);
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 150%;
+    text-align: center;
+
+    letter-spacing: 0.055em;
+
+    color: #070E1B;
+}
+.prod_value{
+    position: absolute;
+
+    bottom: 80px;
+    left: 50%;
+
+    transform: translate(-50%);
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 150%;
+
+    letter-spacing: 0.055em;
+
+    color:#273746;
+}
+.contador{
+    position: absolute;
+
+    bottom: 50px;
+    left: 50%;
+
+    transform: translate(-50%);
+
+    width: 40px;
+    height: 20px;
+
+    background: #18366D;
+    border: none;
+    border-radius: 20px;
+
+    text-align: center;
+    color: #fff;
+}
+.profile{
+
+    position: relative;
+
+    width: 30px;
+    height: 30px;
+
+    border: none;
+    border-radius: 40px;
+    background-color: #C4C4C4;
+
+    padding: 10px;
+}
+.fa-user-circle{
+    position: relative;
+
+    display: none;
+
+    font-size: 36px;
+
+    left: 50%;
+    top: 50%;
+
+    border: none;
+
+    transform: translate(-50%, -50%);
+
+    transition: 2s;
+}
+.fas{
+    color: #e0e0e0;
+    
+}
+.option{
+    position: fixed; 
+    z-index: 1;
+
+    top: 0px;
+    right: 0px;
+
+    width: 300px;
+    height: 100vh;
+
+    border-radius: 20px 0 0 20px;
+
+    transform: translate(300px);
+
+    background: #070E1B;
+
+    box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.2),0px 7px 20px 0px rgba(0, 0, 0, 0.17);
+    transition: 2s;
+}
+.prf{
+    position: absolute;
+    right: 40px;
+    top: 20px;
+
+    padding: 6px;
+    border-radius: 40px;
+
+    transition: 2s;
+}
+.prf:hover  {
+    box-shadow: 0px 0px 60px 2px rgba(0, 0, 0, 0.2);
+}
+
+.barra_categoria ::-webkit-input-placeholder {
+    background: url(./img/search-solid\ \(3\).svg) no-repeat;
+    background-position: left;
+    background-position-x: 20px;
+    background-size: 20px;
+    opacity: .2;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 150%;
+   
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.055em;
+
+    color: #000000;
+
+
+}
+.close{
+    position: fixed;
+    top: 16px;
+    right: 16px;
+
+    color: #fff;
+    font-weight: bold;
+    
+    cursor: pointer;
+}
